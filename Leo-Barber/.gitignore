@@ -22,3 +22,120 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# ==========================================
+# DEPENDÊNCIAS
+# ==========================================
+
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.yarn-cache/
+
+
+# ==========================================
+# VARIÁVEIS DE AMBIENTE / DADOS SECRETOS
+# ==========================================
+
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+.env.*.local
+
+!.env.example
+
+
+# ==========================================
+# BUILD / VITE
+# ==========================================
+
+dist/
+build/
+.vite/
+
+
+# ==========================================
+# LOGS
+# ==========================================
+
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# ==========================================
+# SISTEMA OPERACIONAL
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ==========================================
+# EDITORES
+# ==========================================
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+.idea/
+*.swp
+*.swo
+
+
+# ==========================================
+# ARQUIVOS TEMPORÁRIOS
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
+*.backup
+
+
+# ==========================================
+# BANCO DE DADOS LOCAL
+# ==========================================
+
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+
+# ==========================================
+# CERTIFICADOS / CHAVES
+# ==========================================
+
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+
+# ==========================================
+# ARQUIVOS DE CONFIGURAÇÃO LOCAL
+# ==========================================
+
+config.local.js
+config.local.json
+database.local.js
+database.local.json
+
+
+# ==========================================
+# ARQUIVOS DO WINDOWS
+# ==========================================
+
+ehthumbs.db
+Icon?
