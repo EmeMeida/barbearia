@@ -28,20 +28,24 @@ const horariosDisponiveis = [
 const servicos = [
   {
     nome: 'Corte de cabelo',
-    preco: 'R$ 35,00'
+    preco: 'R$ 30,00'
   },
   {
     nome: 'Barba',
-    preco: 'R$ 25,00'
+    preco: 'R$10,00'
   },
   {
     nome: 'Corte + Barba',
-    preco: 'R$ 55,00'
+    preco: 'R$ 35,00'
   },
   {
     nome: 'Corte infantil',
-    preco: 'R$ 30,00'
-  }
+    preco: 'R$ 20,00'
+  },
+  {
+    nome: 'Corte + Pigmentação',
+    preco: 'R$ 40,00'
+  } 
 ]
 
 function App() {
